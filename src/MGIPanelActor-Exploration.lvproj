@@ -13,6 +13,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Header.lvlib" Type="Library" URL="../Header/Header.lvlib"/>
+		<Item Name="HSplitted.lvlib" Type="Library" URL="../HSplitted/HSplitted.lvlib"/>
+		<Item Name="HSplittedX2.lvlib" Type="Library" URL="../HSplittedX2/HSplittedX2.lvlib"/>
+		<Item Name="HSplittedX3.lvlib" Type="Library" URL="../HSplittedX3/HSplittedX3.lvlib"/>
 		<Item Name="MainWindow.lvlib" Type="Library" URL="../MainWindow/MainWindow.lvlib"/>
 		<Item Name="Menu.lvlib" Type="Library" URL="../Menu/Menu.lvlib"/>
 		<Item Name="Page.lvlib" Type="Library" URL="../Page/Page.lvlib"/>
