@@ -12,6 +12,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Header.lvlib" Type="Library" URL="../Header/Header.lvlib"/>
 		<Item Name="MainWindow.lvlib" Type="Library" URL="../MainWindow/MainWindow.lvlib"/>
 		<Item Name="Menu.lvlib" Type="Library" URL="../Menu/Menu.lvlib"/>
 		<Item Name="Page.lvlib" Type="Library" URL="../Page/Page.lvlib"/>
