@@ -12,13 +12,18 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Header.lvlib" Type="Library" URL="../Header/Header.lvlib"/>
-		<Item Name="HSplitted.lvlib" Type="Library" URL="../HSplitted/HSplitted.lvlib"/>
-		<Item Name="HSplittedX2.lvlib" Type="Library" URL="../HSplittedX2/HSplittedX2.lvlib"/>
-		<Item Name="HSplittedX3.lvlib" Type="Library" URL="../HSplittedX3/HSplittedX3.lvlib"/>
+		<Item Name="HSplitted" Type="Folder">
+			<Item Name="HSplitted.lvlib" Type="Library" URL="../HSplitted/HSplitted.lvlib"/>
+			<Item Name="HSplittedX2.lvlib" Type="Library" URL="../HSplittedX2/HSplittedX2.lvlib"/>
+			<Item Name="HSplittedX3.lvlib" Type="Library" URL="../HSplittedX3/HSplittedX3.lvlib"/>
+			<Item Name="HSplittedX4.lvlib" Type="Library" URL="../HSplittedX4/HSplittedX4.lvlib"/>
+		</Item>
+		<Item Name="UI Content" Type="Folder">
+			<Item Name="Header.lvlib" Type="Library" URL="../Header/Header.lvlib"/>
+			<Item Name="Menu.lvlib" Type="Library" URL="../Menu/Menu.lvlib"/>
+			<Item Name="Page.lvlib" Type="Library" URL="../Page/Page.lvlib"/>
+		</Item>
 		<Item Name="MainWindow.lvlib" Type="Library" URL="../MainWindow/MainWindow.lvlib"/>
-		<Item Name="Menu.lvlib" Type="Library" URL="../Menu/Menu.lvlib"/>
-		<Item Name="Page.lvlib" Type="Library" URL="../Page/Page.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -79,33 +84,31 @@
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="My Application" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{9253826D-CFAB-49C3-9F02-BC23B08A2377}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{C4AE79B5-D22B-4BEC-8B71-B8C12056CD37}</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{9B7CDCDD-B970-431F-90FA-A1C32B6786BF}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5468E61C-00BF-4276-9393-A8DA8B0B789D}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="App_serverType" Type="Int">0</Property>
 				<Property Name="App_winsec.description" Type="Str">http://www.PHALANX.com</Property>
 				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{624EE932-B478-4BEA-9181-7F397387A028}</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{43D355C0-C158-4DF0-B8DA-5324AF5C6356}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">My Application</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/My Application</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToProject</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/My Application</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{5E8583AB-29F3-4994-B3DA-591D626C7C1E}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{9157EEF3-58E9-475A-A3BD-AC3D3A64C526}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/My Application/Application.exe</Property>
-				<Property Name="Destination[0].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/Application.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/My Application/data</Property>
-				<Property Name="Destination[1].path.type" Type="Str">relativeToProject</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/My Application/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{15FA8D8E-B378-4840-BEE5-45150F10837D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{42A42557-4842-4339-8CCD-FC058CA610FF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/MainWindow.lvlib/Launcher.vi</Property>
@@ -117,7 +120,7 @@
 				<Property Name="TgtF_internalName" Type="Str">My Application</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2024 PHALANX</Property>
 				<Property Name="TgtF_productName" Type="Str">My Application</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{BB408BB1-0682-4BD6-8D90-755CC1313947}</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{EC77A112-06FA-4D63-A7D6-5C3E9CDAFF14}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Application.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
